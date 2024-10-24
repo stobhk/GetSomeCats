@@ -6,6 +6,11 @@
  * 版本：1.6
 */
 
+content.push(`title=Aladdin Network Optimizer`);
+content.push(`content=已用流量: 12.33 GB\n总计: 588 GB\nExpire: 2025-06-20 11:20`);
+content.push(`style=info`);
+
+/*
 (async () => {
   let args = getArgs();
   let info = await getDataInfo(args.url);
@@ -154,3 +159,4 @@ function formatTime(time) {
   let day = dateObj.getDate();
   return "到期：" + year + "." + month + "." + day + " ";
 }
+*/
